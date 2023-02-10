@@ -22,7 +22,6 @@ header{
     background-color: #d7c6bf;
     color: #40220D;
     text-align: center;
-    box-shadow: solid 10px 10px 10px black;
 }
 
 header > h1{
@@ -43,13 +42,11 @@ header > p > a {
 }
 
 section {
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 1.5em;
     padding-left: 30px;
-    width: auto;
-    font-size: 3vw;
-    
+    font-size: 2.5vw;
 
 }
 
@@ -103,7 +100,6 @@ footer {
     padding: 5px;
     text-align: center;
     color: #d7c6bf;
-    min-width: auto;
 }
 footer > a{
     color: #d7c6bf;
