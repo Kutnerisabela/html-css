@@ -22,12 +22,14 @@ header{
     background-color: #d7c6bf;
     color: #40220D;
     text-align: center;
+    box-shadow: solid 10px 10px 10px black;
 }
 
 header > h1{
     padding-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
+    font-size: 6vw;
 }
 
 header > p {
@@ -41,11 +43,13 @@ header > p > a {
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 45px;
+    padding-bottom: 45px;
     line-height: 1.5em;
     padding-left: 30px;
+    width: auto;
     font-size: 3vw;
+    
 
 }
 
@@ -55,6 +59,7 @@ section > h3{
 
 section > p {
     font-family: var(--fonte-evermore);
+    font-weight: bold;
 }
 
 section.normal{
@@ -64,12 +69,33 @@ section.normal{
 
 section.imagem{
     background-color: #be9583;
-    color: #ffffff;
+    color:  #efe9e6;;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.571);
 }
 
 section.imagem {
     text-shadow: 10px 10px 10px black;
+    background-attachment: fixed;
 
+}
+
+
+
+#img01 {
+    background-image: url(imagens/braid.jpg);
+    background-size: cover;
+    background-position: top center;
+
+    left: 50%;
+    top: 50%;
+
+
+}
+
+#img02 {
+    background-image: url(imagens/download.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
@@ -77,6 +103,7 @@ footer {
     padding: 5px;
     text-align: center;
     color: #d7c6bf;
+    min-width: auto;
 }
 footer > a{
     color: #d7c6bf;
