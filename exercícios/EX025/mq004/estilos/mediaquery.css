@@ -50,6 +50,10 @@
 @media screen and (min-width: 1200px) /* GRANDES TELAS */ {
     body{
         background-image: url(../imagens/back-tv.jpg);
+        height: 100vh;
+        background-size: cover;
+
+
     }
     img#phone { display: none}
     img#tablet {display: none}
